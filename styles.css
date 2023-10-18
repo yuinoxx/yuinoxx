@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');
+
 * {
     box-sizing: border-box;
     border-top-color: #559972;
     border-bottom-color: #559972;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
     background: rgb(34,88,84);
     background: linear-gradient(90deg, rgba(34,88,84,1) 10%, rgba(85,153,114,1) 20%, rgba(135,195,143,1) 30%, rgba(190,218,165,1) 35%, rgba(244,240,187,1) 50%, rgba(190,218,165,1) 65%, rgba(135,195,143,1) 70%, rgba(85,153,114,1) 80%, rgba(34,88,84,1) 90%);
 }
@@ -21,12 +25,21 @@ h1, h2, h3, h4 , p{
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.5em;
+    text-shadow: 1px 1px 2px #ffffff, 0 0 1em #225854, 0 0 0.2em #225854;
+}
+
+#chinese-title {
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 5em;
+    padding-top:20px;
+    padding-bottom: 0px;
 }
 
 h2 {
     font-size: 1.6rem;
     color: #225854;
+    text-shadow: 0px 0px 1px #000000, 0 0 1em #559972, 0 0 0.2em #559972;
 }
 
 h3 {
@@ -34,11 +47,9 @@ h3 {
     padding-left: 50px;
     padding-right: 50px;
     color: #225854;
+    text-shadow: 0px 0px 1px #000000, 0 0 1em #559972, 0 0 0.2em #559972;
 }
 
-p {
-    font-size: 1rem;
-}
 
 strong {
     background: #87C38F;
@@ -49,8 +60,10 @@ a {
 }
 
 #list-header {
+    padding-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 1.6em;
 }
 
 
@@ -72,9 +85,10 @@ figure {
  #img-div-caption {
     margin-top: 5px;
     margin-bottom: 25px;
-    font-size: 1rem;
+    font-size: 1.5em;
     text-align: center;
     color: #BEDAA5;
+    text-shadow: 0px 0px 1px #000000, 0 0 1em #274735, 0 0 0.2em #37644b;
     background: #87C38F;
  
  }
@@ -91,11 +105,13 @@ figure {
  
 #img-laozi-caption {
     margin: 0px;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     text-align: center;
-    color: #F4F0BB;
     height: 250px;
     text-wrap: balance;
+    color: #BEDAA5;
+    text-shadow: 0px 0px 1px #000000, 0 0 1em #274735, 0 0 0.2em #37644b;
+    background: #87C38F;
 }
  
      

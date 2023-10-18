@@ -9,6 +9,7 @@
     font-family: 'Open Sans', sans-serif;
     background: rgb(34,88,84);
     background: linear-gradient(90deg, rgba(34,88,84,1) 10%, rgba(85,153,114,1) 20%, rgba(135,195,143,1) 30%, rgba(190,218,165,1) 35%, rgba(244,240,187,1) 50%, rgba(190,218,165,1) 65%, rgba(135,195,143,1) 70%, rgba(85,153,114,1) 80%, rgba(34,88,84,1) 90%);
+    text-size-adjust: auto;
 }
 
 #main {
@@ -59,6 +60,14 @@ a {
     background: #87C38F;
 }
 
+.title-container {
+    background: #87C38F;
+}
+
+section {
+    background: #87C38F;
+}
+
 #list-header {
     padding-top: 50px;
     padding-left: 20px;
@@ -94,24 +103,25 @@ figure {
  }
 
  #img-laozi {
-     max-width: 350px;
-     height: auto;
-     padding-left: 15px;
-     padding-right: 25px;
-     padding-top: 55px;
-     background: #87C38F;
-
+    max-width: 350px;
+    height: auto;
+    padding-left: 15px;
+    padding-right: 25px;
+    padding-top: 10px;
+    background: #87C38F;
+    vertical-align: text-top;
  }
  
 #img-laozi-caption {
-    margin: 0px;
     font-size: 1.5em;
-    text-align: center;
-    height: 250px;
-    text-wrap: balance;
+    text-align:center;
     color: #BEDAA5;
     text-shadow: 0px 0px 1px #000000, 0 0 1em #274735, 0 0 0.2em #37644b;
     background: #87C38F;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
 }
  
      
@@ -122,10 +132,19 @@ figure {
 /* table start */
 
 #tribute-container-left {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    background: #87C38F;
+    max-width: 525px;
+}
+
+#tribute-container-right {
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 20px;
     background: #87C38F;
 }
-
 
 ul {
     margin-left: auto;
@@ -144,23 +163,16 @@ li {
 }
 
 .tribute-list {
-    display:grid;
+    display: column;
+    background: #87C38F;
 }
+
 
 .tribute-container {
     display: flex;
     max-width: 900px;
     height: auto;
-
-}
-
-#tribute-list-box-left {
-    margin-top: 10px;
-    margin-right: 5px;
-    font-size: 0.8em;
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
+    background: #87C38F;
 }
 
 #tribute-list-box-right {

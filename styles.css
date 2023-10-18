@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    border-top-color: #559972;
+    border-bottom-color: #559972;
+    margin: 0;
+    background-color: #BEDAA5;
+}
+#main {
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 750px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #559972;
+    background-size: 500px;
+}
+
+h1, h2, h3, h4 , p{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+    color: #225854;
+}
+
+h3 {
+    font-size: 1.5rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #225854;
+    background-color: #55997346 ;
+}
+
+p {
+    font-size: 1rem;
+}
+
+#list-header {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* image start */
+figure {
+    display: grid;
+}
+#img-div {
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: #BEDAA5;
+ }
+
+ 
+ #img-div-caption {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-size: 1rem;
+    text-align: center;
+    color: #559972;
+ 
+ }
+
+ #img-laozi {
+     max-width: 280px;
+     height: auto;
+     padding-left: 15px;
+     padding-right: 25px;
+     padding-top: 55px;
+
+ }
+ 
+#img-laozi-caption {
+    margin: 0px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #F4F0BB;
+    height: 250px;
+}
+ 
+     
+
+
+/* image end */
+
+/* table start */
+
+#tribute-container-left {
+    padding-top: 20px;
+}
+
+table {
+    margin-left: 10px;
+    margin-right: 50px;
+    border-collapse: collapse;
+    border: 15px solid #559972;
+    letter-spacing: 0.8px;
+}
+
+th {
+    background-color: #87C38F;
+}
+
+
+ul {
+    margin-left: auto;
+    margin-right:auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tribute-list-box {
+    display: flex;
+}
+
+.tribute-list {
+    display:grid;
+}
+
+.tribute-container {
+    display: flex;
+    max-width: 750px;
+    height: auto;
+
+}
+
+#tribute-list-box-left {
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+}
+
+#tribute-list-box-right {
+    max-width:250px;
+    flex-direction: column;
+}
+
+/* table end */
